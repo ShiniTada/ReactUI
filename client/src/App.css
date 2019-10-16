@@ -1,0 +1,136 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+.big-wrap {
+    background-image: url("./back.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.container {
+    margin-top: 32px;
+}
+
+.main-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(155, 67, 156, 0.99);
+    color: white;
+    text-align: center;
+}
+
+.elem {
+    height: 315px;
+    width: 340px;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 2px;
+    margin-top: 17px;
+    margin-left: 30px;
+    background: rgba(251, 243, 185, 0.51);
+}
+
+.elem-tags {
+    width: 335px;
+    height: 35px;
+    overflow: auto;
+}
+
+.elem-head {
+    height: 60px;
+    overflow: auto;
+}
+
+.circle {
+    border-radius: 40%;
+    border: solid 1px black;
+}
+
+.elem-text {
+    width: 335px;
+    height: 175px;
+    overflow: auto;
+}
+
+.list-user {
+    height: 315px;
+    width: 340px;
+}
+
+.elem-user {
+    margin: 10px;
+    padding: 5px;
+    height: 35px;
+    background: #d2d2d2;
+}
+
+.head-text {
+    font-size: 130%;
+}
+
+.settings {
+    width: 335px;
+    background-color: rgba(170, 166, 173, 0.44);
+}
+
+.inside-button-margin {
+    margin: 5px;
+}
+
+.inside-tag-margin {
+    margin: 2px;
+}
+
+.inside-right-button-margin {
+    margin-right: 10px;
+}
+
+.small-margin-left {
+    margin-left: 5px;
+}
+
+.margin-left {
+    margin-left: auto;
+}
+
+.big-margin-left {
+    margin-left: 35px;
+}
+
+.big-text {
+    font-size: 110%;
+}
+
+.text {
+    color: black;
+}
+
+.navbar-color {
+    background: rgba(148, 44, 156, 0.57);
+}
+
+.dropdown-top-button {
+    padding: 15px 5px 10px;
+}
+
+.dropdown-top-button:hover {
+    background: rgba(148, 44, 156, 0.57);
+    padding: 15px 5px 10px;
+}
+
+.dropdown-button {
+    padding: 10px 5px 5px;
+}
+
+.dropdown-button:hover {
+    background: rgb(249, 237, 105);
+    padding: 10px 5px 5px;
+}
+
+.popup-color {
+    background: rgb(249, 249, 211);
+}
